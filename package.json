@@ -6,8 +6,7 @@
   "license": "MIT",
   "engines": {
     "node": "8.11.2",
-    "npm": "5.6.0",
-    "yarn": "1.12.3"
+    "npm": "5.6.0"
   },
   "scripts": {
     "serve": "live-server public/",
@@ -16,7 +15,7 @@
     "dev-server": "webpack-dev-server",
     "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
-    "heroku-prebuild": "yarn run build:prod"
+    "heroku-prebuild": "npm run build:prod"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -52,7 +51,7 @@
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
-    "webpack": "3.1.0",
+    "webpack": "^3.1.0",
     "webpack-dev-server": "2.5.1"
   }
 }
